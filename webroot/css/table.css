@@ -1,0 +1,56 @@
+/**
+ * Style for table
+ */
+/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: none repeat scroll 0% 0% #1D1D1D;
+	}
+	
+	tr:nth-of-type(even) {
+		background: none repeat scroll 0% 0% #171717;
+	}
+	
+	th { 
+		color: #DDDDDD; 
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 6px;
+		border: 0px solid transparent;
+		text-align: left; 
+		font-weight: bold;
+	}
+	
+	td a, th a {
+		border: 0px solid transparent;
+		color: #64A945;
+		text-decoration:none;
+		font-weight: bold;
+	
+	}
+	
+	td a:link    { }
+	td a:visited { }
+	td a:hover   { 
+		color: #CCCCCC;  
+		text-decoration:none;
+		font-weight: bold;
+	}
+	td a:active  { }
+
+	th a:link    { }
+	th a:visited { }
+	th a:hover   { 
+		color: #CCCCCC;  
+		text-decoration:none;
+		font-weight: bold;
+	}
+	th a:active  { }
+

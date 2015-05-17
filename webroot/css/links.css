@@ -1,0 +1,352 @@
+/**
+*
+* Layout for the navigation bar and links
+*
+*
+/
+
+
+/** --------------------------------------------------------------
+ * Ordinary links
+ *
+ */
+ 
+a {
+    border: 0px solid transparent;
+	color: #64A945;
+    text-decoration:none;
+}
+a:link    { }
+a:visited { }
+a:hover   { 
+	color: #CCCCCC;  
+	text-decoration:none;
+}
+a:active  { }
+ 
+
+/** --------------------------------------------------------------
+ * Links for the footer
+ *
+ */ 
+ 
+.sitefooter a {
+    border: 0px solid transparent;
+	color: #64A945;
+    text-decoration:none;
+}
+.sitefooter a:link    { }
+.sitefooter a:visited { }
+.sitefooter a:hover   { 
+	color: #CCCCCC;  
+	text-decoration:none;
+}
+.sitefooter a:active  { }
+ 
+
+/** --------------------------------------------------------------
+ * Navbar: Plain style, nothing special
+ *
+ */
+ul.nb-plain {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nb-plain li {
+  padding: 0 0 0 1em;
+  margin: 0;
+  display: inline;
+}
+
+ul.nb-plain li:first-child {
+  padding-left: 0;
+}
+
+ul.nb-plain li.selected a {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}    
+
+ul.nb-plain a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}  
+
+ul.nb-plain a:hover {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-decoration: none;
+}
+
+/** --------------------------------------------------------------
+ * Navbar: navbar2
+ *
+ */
+ul.navbar2 {
+	list-style-type: none;
+	display: block;
+	padding: 6px 10px 6px 15px;
+	background: #EEEEEE;
+	margin-top:0em;
+	border: 1px solid #E3E3E3;
+	font-family: arial;
+    font-weight: bold;
+  
+}
+
+ul.navbar2 li {
+  padding: 0 0 0 1.5em;
+  margin: 0;
+  display: inline;
+}
+
+ul.navbar2 li:first-child {
+  padding-left: 0;
+}
+
+ul.navbar2 li.selected a {
+	color: #111111;
+	background:#EEEEEE;
+	border:4px solid #E3E3E3;
+}    
+
+ul.navbar2 a {
+	padding: 6px 10px 6px 10px;
+    border: 4px solid transparent;
+	color: #E74B4A;
+	text-decoration:none;
+	text-transform: uppercase;
+}  
+
+ul.navbar2 a:hover {
+	color: #111111; 
+	background: #EEEEEE; 
+	border:4px solid #E3E3E3;
+	text-decoration: none;
+}
+
+
+
+/* navbar: another style -----------------------------------------------
+ */ 
+ 
+ul.navmenu {
+    display: block;
+    padding: 6px 10px 6px 15px;
+    background: #EEEEEE;
+	margin-top:1em;
+	border: 1px solid #E3E3E3;
+	font-family: arial;
+    font-weight: bold;
+}
+ul.navmenu a {
+    padding: 6px 10px 6px 10px;
+    border: 4px solid transparent;
+	color: #E74B4A;
+    text-decoration:none;
+}
+ul.navmenu a:link    { }
+ul.navmenu a:visited { }
+ul.navmenu a:hover   { 
+	color: #111111; 
+	background: #EEEEEE; 
+	border:4px solid #E3E3E3;
+}
+ul.navmenu a:active  { }
+
+/* inNavBar: ------------------------------------------------------------
+ */
+ 
+.inNavBar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display:block;
+}
+ 
+.inNavBar div {
+	padding: 13px 10px 13px 12px;
+    background: #EEEEEE;
+	margin: 3px 3px 3px 3px;
+	border: 1px solid #E3E3E3;
+	font-family: arial;
+    font-weight: bold;
+}
+ 
+.inNavBar div a {
+    padding: 13px 10px 13px 12px;
+    border: 0px solid transparent;
+	color: #333333;
+    text-decoration:none;
+}
+
+.inNavBar div a:link    { }
+.inNavBar div a:visited { }
+.inNavBar div a:hover   { 
+	color: #999999; 
+	background: #EEEEEE; 
+	border:0px solid #E3E3E3;
+}
+.inNavBar div a:active  { }
+
+
+
+
+
+
+
+
+
+/* tableNav ----------------------------------------------------------
+ */
+ 
+.pages {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ 
+#navLeft {
+	display: inline;
+	padding: 4px 8px 4px 8px;
+	margin: 0px;
+	border-radius: 4px 0px 0px 4px;
+	background: #54903A;
+	border-right: 1px solid #171717;
+}
+
+#navRight{
+	display: inline;
+	padding: 4px 8px 4px 8px;
+	margin: 0px;
+	border-radius: 0px 4px 4px 0px;
+	background: #54903A;
+	border-left: 1px solid #171717;
+}
+
+#navPrev{
+	display: inline;
+	padding: 4px 8px 4px 8px;
+	margin: 0px;
+	border-radius: 0px 0px 0px 0px;
+	background: #54903A;
+	border-left: 1px solid #171717;
+	border-right: 1px solid #171717;
+}
+
+#navNext{
+	display: inline;
+	padding: 4px 8px 4px 8px;
+	margin: 0px;
+	border-radius: 0px 0px 0px 0px;
+	background: #54903A;
+	border-left: 1px solid #171717;
+	border-right: 1px solid #171717;
+}
+
+.navNumber{
+	display: inline;
+	padding: 4px 8px 4px 8px;
+	margin: 0px;
+	border-radius: 0px 0px 0px 0px;
+	background: #54903A;
+	border-left: 1px solid #171717;
+	border-right: 1px solid #171717;
+}
+ 
+ 
+ .navButton a {
+	border: 0px solid transparent;
+	color: #CCCCCC;
+	text-decoration:none;
+	font-weight: bold;
+ 
+ }
+ 
+ .navButton a:link    { }
+ .navButton a:visited { }
+ .navButton a:hover   { 
+	color: #171717;  
+	text-decoration:none;
+	font-weight: bold;
+ }
+ .navButton	a:active  { }
+ 
+ .navButton {
+	color: #CCCCCC;
+	font-weight: bold;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .activeButton {
+	display: inline;
+	border: 0px solid #333333;
+	padding: 4px 8px 4px 8px;
+	margin: 4px;
+	border-radius: 4px 4px 4px 4px;
+	background: #54903A;
+ }
+ 
+ .linkButton2 {
+	display: inline;
+	border: 0px solid #CCCCCC;
+	padding: 10px 12px 10px 12px;
+	margin: 4px;
+	border-radius: 2px 2px 2px 2px;
+	background: #365926;
+ }
+ 
+ #categories{
+	/*text-align: center;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+ }
+ 
+ .showAll{
+	display: inline;
+	border: 0px solid #333333;
+	padding: 4px 8px 4px 8px;
+	margin: 4px;
+	border-radius: 4px 4px 4px 4px;
+	background: #CCCCCC;
+ }
+ 
+ .showAll a {
+	border: 0px solid transparent;
+	color: #171717;
+	text-decoration:none;
+	font-weight: bold;
+ 
+ }
+ 
+ .showAll a:link    { }
+ .showAll a:visited { }
+ .showAll a:hover   { 
+	color: #54903A;  
+	text-decoration:none;
+	font-weight: bold;
+ }
+ .showAll	a:active  { }
+ 
+ .showAll {
+	color: #171717;
+	font-weight: bold;
+ }
+ 
+ 
+ .breadLink {
+	margin-bottom: 30px;
+ }
+ 
+ 
+
+
+ 

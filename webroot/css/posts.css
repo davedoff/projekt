@@ -1,0 +1,151 @@
+.posts {
+	margin-top: 50px;
+}
+
+.postsHome {
+	margin-top: 20px;
+	background-color: #252525;
+}
+
+.question {
+	padding-bottom: 25px;
+	background-color: #1F1F1F;
+	height: 175px;
+}
+
+.questionOnly {
+	margin-bottom: 30px;
+	padding-bottom: 45px;
+	border-bottom: 1px solid #333333;
+}
+
+.ta {
+	text-align: center;
+}
+
+.questionHome {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px solid #333333;
+}
+
+.comments {
+	margin-left: 15%;
+	margin-bottom: 25px;
+}
+
+.comment {
+	border-bottom: 1px solid #333333;
+	padding-top: 5px;
+}
+
+.comments h2 {
+	text-align: center;
+}
+
+
+
+.answer {
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #333333;
+}
+
+.commentText {
+	font-size: smaller;
+	width: 80%;
+	padding-left: 15px;
+}
+
+.comment-info {
+	font-size: smaller;
+	float: right;
+	width: 15%;
+}
+
+.user {
+	width: 19%;
+	float: left;
+	margin-left: 1%;
+}
+
+.pad {
+	padding-top: 5px;
+}
+
+.userComment {
+	width: 10%;
+	float: left;
+
+}
+
+.content {
+	padding-top: 1px;
+	width: 80%;
+	float: right;
+}
+
+
+
+.tags {
+	width: 80%;
+	float: right;
+
+}
+
+.timestamp {
+	font-size: smaller;
+	font-style: italic;
+}
+
+.contentH2 {
+	margin-left:15%;
+	margin-bottom:15px;
+
+}
+
+.postH2 {
+	margin-top:60px;
+
+}
+
+.contentHeader {
+
+}
+
+.buttonSubmit {
+	margin-left:15%;
+	margin-top:50px;
+}
+
+.homeH3 {
+	margin-bottom:0px;
+}
+
+
+.question-h2 {
+	font-size: 32px;
+	font-weight: 300;
+  	line-height: 32px;
+  	margin-left: 20%;
+  	padding-top: 5px;
+  	border-bottom: 1px solid #333333;
+  	max-width: 70%;
+  	margin-bottom: 0;
+}
+
+.question-button {
+  padding: 4px 8px 4px 8px;
+  border: 0px none transparent;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-family: inherit;
+  background-color: #18A478;
+  letter-spacing: 2px;
+  margin: 4px;
+}
+
+.marginbu {
+	margin-top: 10px;
+}
